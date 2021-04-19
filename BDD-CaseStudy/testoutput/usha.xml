@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.029">
+<testcase classname="SignUp Feature" name="Signup to the portal successfully" time="12.679">
+<system-out><![CDATA[Given I am able to navigate to Homepage.....................................passed
+And Click on SignUp button..................................................passed
+When I Enter the First name as "usha".......................................passed
+And I Enter the Last name as "ibm"..........................................passed
+And I Enter the email "ushaibm@gmail.com"...................................passed
+And I Enter Username as "usha123"...........................................passed
+And I Enter Pass as "usha@123"..............................................passed
+And I Enter Confirm password as "usha@123"..................................passed
+And Click on Register button................................................passed
+Then User should be registered successfully.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

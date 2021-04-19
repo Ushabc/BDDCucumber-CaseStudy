@@ -1,0 +1,185 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-19T10:16:43.747Z",
+        "line": 40,
+        "name": "Signup to the portal successfully",
+        "description": "",
+        "id": "signup-feature;signup-to-the-portal-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7532000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I am able to navigate to Homepage",
+            "match": {
+              "location": "stepDefinition.Step_Definition.i_am_able_to_navigate_to_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2166000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click on SignUp button",
+            "match": {
+              "location": "stepDefinition.Step_Definition.click_on_sign_up_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I Enter the First name as \"usha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"usha\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinition.Step_Definition.i_enter_the_first_name_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I Enter the Last name as \"ibm\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ibm\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinition.Step_Definition.i_enter_the_last_name_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I Enter the email \"ushaibm@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ushaibm@gmail.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.Step_Definition.i_enter_the_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I Enter Username as \"usha123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"usha123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.Step_Definition.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I Enter Pass as \"usha@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"usha@123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.Step_Definition.i_enter_pass_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I Enter Confirm password as \"usha@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"usha@123\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinition.Step_Definition.i_enter_confirm_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1823000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click on Register button",
+            "match": {
+              "location": "stepDefinition.Step_Definition.click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User should be registered successfully",
+            "match": {
+              "location": "stepDefinition.Step_Definition.user_should_be_registered_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MultipleUsersRegistration"
+          }
+        ]
+      }
+    ],
+    "name": "SignUp Feature",
+    "description": "",
+    "id": "signup-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/SignUp/SignUp.feature",
+    "tags": []
+  }
+]
